@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Hēgweard Tsulalgi
+email: Hegweard_Tsulalgi@proton.me
 description: >- # this means to ignore newlines until "baseurl:"
   The personal website of Hēgweard Tsulalgi! I write cool blog posts
   and stuff about Linux, biking, writing, and more
@@ -52,6 +52,10 @@ include:
 
 defaults:
   - scope:
-      path: "_posts/"
+      type: posts
     values:
       layout: blog
+
+collections:
+  pages: # necessary since Jekyll won't accept _pages/ as a valid directory in Liquid templates otherwise.
+    output: true
