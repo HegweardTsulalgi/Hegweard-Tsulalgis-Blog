@@ -36,7 +36,7 @@
         <br>
 
         <section class="No AI">
-            <a href="{% link _pages/ai.md %}">
+            <a href="{{ site.baseurl }}{% link _pages/ai.md %}">
                 <img alt="No AI" src="{{ site.baseurl }}/assets/images/no-ai-icon-01.svg" height="70">
             </a>
         </section>
@@ -44,7 +44,7 @@
         <br>
 
         <section>
-            <a href="{% link _pages/socials.html %}">Socials</a>
+            <a href="{{ site.baseurl }}{% link _pages/socials.md %}">Socials</a>
         </section>
 
         <section id="article-list">
@@ -54,7 +54,7 @@
             {% for post in site.posts %}
                 <div class="article">
                     <span class="date">{{ post.date | date: "%B %-d, %Y" }}</span>
-                    <a href="{{ post.url }}" class="center">{{ post.title }}</a>
+                    <a href="{{ site.baseurl }}{{ post.url }}" class="center">{{ post.title }}</a>
                 </div>
                 <br />
             {% endfor %}

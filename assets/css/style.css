@@ -1,5 +1,10 @@
+---
+# empty frontmatter because Jekyll needs it to process the site.baseurl for the font here.
+---
+
+
 @font-face{
-    src: url(/assets/fonts/pt-mono.ttf);
+    src: url("{{ site.baseurl }}/assets/fonts/pt-mono.ttf");
     font-family: pt-mono-ttf;
 }
 
