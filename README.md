@@ -20,7 +20,7 @@ Note: You may have to refresh on other devices even if you pass in `--livereload
 
 # Special Thanks
 
-- [**No AI Icon**]([https://github.com/OFFTKP/felix86](https://no-ai-icon.com/)): This is where i got the AI icons from.
+- [**No AI Icon**](https://no-ai-icon.com/): This is where i got the AI icons from.
 
-- [**TrulyFlawed**]([https://github.com/TrulyFlawed)): A frequent contributor and a close friend <3
+- [**TrulyFlawed**](https://github.com/TrulyFlawed): A frequent contributor and a close friend <3
 
